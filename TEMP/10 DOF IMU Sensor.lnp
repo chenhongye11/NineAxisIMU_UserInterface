@@ -1,0 +1,5 @@
+--cpu Cortex-M3
+--library_type=microlib --strict --scatter ".\10 DOF IMU Sensor.10 DOF IMU Sensor.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\TEMP\10 DOF IMU Sensor.map" -o "..\TEMP\10 DOF IMU Sensor.axf"
